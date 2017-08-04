@@ -1,0 +1,84 @@
+<html>
+
+<head>
+
+  <title>Hangman-Game</title>
+
+<link rel="stylesheet" type="text/css" href="./assets/css/reset.css">
+<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+
+<link rel="stylesheet" type="text/css" href="./assets/css/style.css">
+
+</head>
+
+<body id="hangman">
+<div class="container">
+  <div class="row">
+    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+      <div id="title-off" style="visibility: visible">
+        <p class="title-text">It's Dangerous to Go Alone! Press any key.</p>
+        <div>
+          <img src="./assets/images/triforce.png" style="width: 80px">
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+ <!--<p>Word of the Day: <div id="random"></div> </p> <br> -->
+
+<div id="title-on" class="container" style="visibility: hidden">
+  <div class="row top-row">
+    <div class="col-lg-10 col-lg-offset-1 col-md-offset-1 col-md-10 col-sm-12 col-xs-12">
+      <a class="thumbnail">    
+	    <img class="zelda-logo" src="./assets/images/zelda_title.gif" style="height: 300px">
+
+    	  <p class="title-word">WORD</p>
+  		  <p class="title-guess">GAME</p>
+	  
+	  </a>  
+	</div>
+  </div>
+  <div class="row">
+	<div class="col-lg-5 col-lg-offset-1 col-md-5 col-md-offset-1 col-md-6 col-xs-6">
+	  <div class="panel panel-default">
+  		<div class="panel-body">
+ 
+   		  <p class="opponent">-Opponent-<div><img src="./assets/images/octorok.png" style="width: 53px; length:53px">  <span id="blanked"></span></div> </p> <br>
+
+  		  <!--<p>Input of the Day: <div id="input"></div> </p> <br>-->
+
+  		  <p class="attacks">-Attacks-<div><img src="./assets/images/sword.png" style="width: 37px"><span id="letg"></span></div> </p> <br>
+		</div>
+	  </div>
+    </div>
+    <div class="col-lg-5 col-md-5 col-md-6 col-xs-6">
+	  <div class="panel panel-default">
+  		<div class="panel-body">
+
+  		  <p class="life">-LIFE-<div><img src="./assets/images/heart.png" style="width: 53px; length:53px">x <span id="guesses"></span></div> </p> <br>
+
+  		  <p class="rupees">-RUPEES- <div><img src="./assets/images/rupees.png" style="width: 57px; length:57px">x <span id="completed"></span></div> </p> <br>
+
+		</div>
+	  </div>
+	</div>
+  </div>
+</div>
+ 
+  <audio id="lozbg" type="audio/mp3" loop> <!--add autoplay if title screen doesnt work-->
+    <source id="loz-overworld" src="./assets/sounds/loz_overworld.mp3">
+  </audio>
+
+  <audio id="item">
+	<source src="./assets/sounds/loz_item.mp3">
+  </audio>
+
+
+  <script type="text/javascript" src="./assets/javascript/game.js"></script>
+
+
+
+  </body>
+</html>
+
