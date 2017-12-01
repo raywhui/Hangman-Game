@@ -7,7 +7,7 @@ Press the Link (hah.) here to being your quest: https://raywhui.github.io/Hangma
 
 ## How to Play
 
-You probably don't need any items for this quest. Just a general knowledge of Zelda will be fine. A fairy would help if you mess up. You get 5 hearts and you lose 1 everytime you guess the letter wrong. If you fail to guess the word, you are DEAD! But succeed, and you will be granted a single rupee. The cycle repeats it self again, kinda like how the series work.
+You probably don't need any items for this quest. Just a general knowledge of Zelda will be fine. A fairy would help if you mess up. You get 5 hearts and you lose 1 everytime you guess the letter wrong. If you fail to guess the word, you are DEAD! But succeed, and you will be granted a single rupee. The cycle then repeats itself, kinda like how the series work.
 
 
 ## Built With
